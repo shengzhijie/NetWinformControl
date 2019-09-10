@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controls\FactoryControls\Arrow\UCArrow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="Controls\FactoryControls\Blower\UCBlower.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -103,10 +106,16 @@
     <Compile Include="Controls\FactoryControls\Conveyor\UCConveyor.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="Controls\FactoryControls\Lamp\UCAlarmLamp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="Controls\FactoryControls\Lamp\UCSignalLamp.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Controls\FactoryControls\Pond\UCPond.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\FactoryControls\Thermometer\UCThermometer.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Controls\FactoryControls\Valve\UCValve.cs">
